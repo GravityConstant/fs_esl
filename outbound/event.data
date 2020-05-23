@@ -1,0 +1,1429 @@
+Answer-State: ringing
+Call-Direction: inbound
+Caller-Ani: 80000
+Caller-Caller-Id-Name: zhuguan
+Caller-Caller-Id-Number: 80000
+Caller-Channel-Answered-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Created-Time: 1589767582759699
+Caller-Channel-Hangup-Time: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Caller-Channel-Progress-Media-Time: 0
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Transfer-Time: 0
+Caller-Context: default
+Caller-Destination-Number: 12345
+Caller-Dialplan: XML
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Network-Addr: 192.168.1.91
+Caller-Orig-Caller-Id-Name: zhuguan
+Caller-Orig-Caller-Id-Number: 80000
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+Caller-Profile-Created-Time: 1589767582759699
+Caller-Profile-Index: 1
+Caller-Screen-Bit: true
+Caller-Source: mod_sofia
+Caller-Unique-Id: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+Caller-Username: 80000
+Channel-Ani: 80000
+Channel-Call-State: RINGING
+Channel-Call-Uuid: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+Channel-Caller-Id-Name: zhuguan
+Channel-Caller-Id-Number: 80000
+Channel-Channel-Answered-Time: 0
+Channel-Channel-Bridged-Time: 0
+Channel-Channel-Created-Time: 1589767582759699
+Channel-Channel-Hangup-Time: 0
+Channel-Channel-Hold-Accum: 0
+Channel-Channel-Last-Hold: 0
+Channel-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Channel-Channel-Progress-Media-Time: 0
+Channel-Channel-Progress-Time: 0
+Channel-Channel-Resurrect-Time: 0
+Channel-Channel-Transfer-Time: 0
+Channel-Context: default
+Channel-Destination-Number: 12345
+Channel-Dialplan: XML
+Channel-Direction: inbound
+Channel-Hit-Dialplan: true
+Channel-Logical-Direction: inbound
+Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Channel-Network-Addr: 192.168.1.91
+Channel-Orig-Caller-Id-Name: zhuguan
+Channel-Orig-Caller-Id-Number: 80000
+Channel-Presence-Id: 80000@192.168.1.202
+Channel-Privacy-Hide-Name: false
+Channel-Privacy-Hide-Number: false
+Channel-Profile-Created-Time: 1589767582759699
+Channel-Profile-Index: 1
+Channel-Screen-Bit: true
+Channel-Source: mod_sofia
+Channel-State: CS_EXECUTE
+Channel-State-Number: 4
+Channel-Unique-Id: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+Channel-Username: 80000
+Content-Type: command/reply
+Control: full
+Core-Uuid: 54804d26-7e02-11ea-a77c-d18c212b558c
+Event-Calling-File: mod_event_socket.c
+Event-Calling-Function: parse_command
+Event-Calling-Line-Number: 1979
+Event-Date-Gmt: Mon, 18 May 2020 02:06:22 GMT
+Event-Date-Local: 2020-05-18 10:06:22
+Event-Date-Timestamp: 1589767582759699
+Event-Name: CHANNEL_DATA
+Event-Sequence: 628947
+Freeswitch-Hostname: container
+Freeswitch-Ipv4: 192.168.1.202
+Freeswitch-Ipv6: ::1
+Freeswitch-Switchname: container
+Presence-Call-Direction: inbound
+Reply-Text: +OK
+
+Socket-Mode: async
+Unique-Id: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+Variable_call_uuid: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+Variable_channel_name: sofia/internal/80000@192.168.1.202:15288
+Variable_current_application: socket
+Variable_current_application_data: 127.0.0.1:8084 async full
+Variable_direction: inbound
+Variable_dp_match: ARRAY::12345|:12345
+Variable_endpoint_disposition: DELAYED NEGOTIATION
+Variable_ep_codec_string: PCMU@8000h@20i@64000b,PCMA@8000h@20i@64000b,GSM@8000h@20i@13200b
+Variable_max_forwards: 70
+Variable_open: true
+Variable_presence_id: 80000@192.168.1.202
+Variable_recovery_profile_name: internal
+Variable_rtp_use_codec_string: G722,PCMU,PCMA,GSM
+Variable_session_id: 219
+Variable_sip_acl_authed_by: domains
+Variable_sip_authorized: true
+Variable_sip_call_id: MzkxZjU3MTcwYzQ0NGI2MjE1MjhmOWYwYTg0NTYwODI.
+Variable_sip_contact_host: 192.168.1.91
+Variable_sip_contact_port: 47134
+Variable_sip_contact_uri: 80000@192.168.1.91:47134
+Variable_sip_contact_user: 80000
+Variable_sip_from_display: zhuguan
+Variable_sip_from_host: 192.168.1.202
+Variable_sip_from_port: 15288
+Variable_sip_from_tag: 86143071
+Variable_sip_from_uri: 80000@192.168.1.202:15288
+Variable_sip_from_user: 80000
+Variable_sip_from_user_stripped: 80000
+Variable_sip_full_from: "zhuguan" <sip:80000@192.168.1.202:15288>;tag=86143071
+Variable_sip_full_to: "12345" <sip:12345@192.168.1.202:15288>
+Variable_sip_full_via: SIP/2.0/UDP 192.168.1.91:47134;branch=z9hG4bK-d8754z-9f420162a06bc01f-1---d8754z-;rport=47134
+Variable_sip_local_network_addr: 192.168.1.202
+Variable_sip_network_ip: 192.168.1.91
+Variable_sip_network_port: 47134
+Variable_sip_received_ip: 192.168.1.91
+Variable_sip_received_port: 47134
+Variable_sip_req_host: 192.168.1.202
+Variable_sip_req_port: 15288
+Variable_sip_req_uri: 12345@192.168.1.202:15288
+Variable_sip_req_user: 12345
+Variable_sip_to_display: 12345
+Variable_sip_to_host: 192.168.1.202
+Variable_sip_to_port: 15288
+Variable_sip_to_uri: 12345@192.168.1.202:15288
+Variable_sip_to_user: 12345
+Variable_sip_user_agent: eyeBeam release 1100l stamp 46320
+Variable_sip_via_host: 192.168.1.91
+Variable_sip_via_port: 47134
+Variable_sip_via_protocol: udp
+Variable_sip_via_rport: 47134
+Variable_socket_host: 127.0.0.1
+Variable_sofia_profile_name: internal
+Variable_switch_r_sdp: v=0
+o=- 8 2 IN IP4 192.168.1.91
+s=CounterPath eyeBeam 1.5
+c=IN IP4 192.168.1.91
+t=0 0
+m=audio 35302 RTP/AVP 107 100 106 6 0 105 8 18 3 5 101
+a=rtpmap:107 BV32/16000
+a=rtpmap:100 SPEEX/16000
+a=rtpmap:106 SPEEX-FEC/16000
+a=rtpmap:105 SPEEX-FEC/8000
+a=rtpmap:18 G729/8000
+a=fmtp:18 annexb=yes
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=alt:1 3 : pTHwIPXQ CqRbstbB 192.168.1.91 35302
+a=alt:2 2 : u42NuUpd aMRY/35y 192.168.17.1 35302
+a=alt:3 1 : 5tHjnGlV Zy30QqWa 192.168.61.1 35302
+a=x-rtp-session-id:10F3540605834226AF655A1C452711F7
+
+Variable_uuid: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+
+
+================================================================================
+Content-Type: command/reply
+Reply-Text: +OK event listener enabled plain
+
+
+================================================================================
+Content-Length: 5126
+Content-Type: text/event-plain
+BODY: 
+Event-Name: CHANNEL_EXECUTE_COMPLETE
+Core-UUID: 54804d26-7e02-11ea-a77c-d18c212b558c
+FreeSWITCH-Hostname: container
+FreeSWITCH-Switchname: container
+FreeSWITCH-IPv4: 192.168.1.202
+FreeSWITCH-IPv6: %3A%3A1
+Event-Date-Local: 2020-05-18%2010%3A06%3A22
+Event-Date-GMT: Mon,%2018%20May%202020%2002%3A06%3A22%20GMT
+Event-Date-Timestamp: 1589767582779701
+Event-Calling-File: switch_core_session.c
+Event-Calling-Function: switch_core_session_exec
+Event-Calling-Line-Number: 2756
+Event-Sequence: 628950
+Channel-State: CS_EXECUTE
+Channel-Call-State: RINGING
+Channel-State-Number: 4
+Channel-Name: sofia/internal/80000%40192.168.1.202%3A15288
+Unique-ID: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+Call-Direction: inbound
+Presence-Call-Direction: inbound
+Channel-HIT-Dialplan: true
+Channel-Presence-ID: 80000%40192.168.1.202
+Channel-Call-UUID: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+Answer-State: ringing
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Username: 80000
+Caller-Dialplan: XML
+Caller-Caller-ID-Name: zhuguan
+Caller-Caller-ID-Number: 80000
+Caller-Orig-Caller-ID-Name: zhuguan
+Caller-Orig-Caller-ID-Number: 80000
+Caller-Network-Addr: 192.168.1.91
+Caller-ANI: 80000
+Caller-Destination-Number: 12345
+Caller-Unique-ID: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+Caller-Source: mod_sofia
+Caller-Context: default
+Caller-Channel-Name: sofia/internal/80000%40192.168.1.202%3A15288
+Caller-Profile-Index: 1
+Caller-Profile-Created-Time: 1589767582759699
+Caller-Channel-Created-Time: 1589767582759699
+Caller-Channel-Answered-Time: 0
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Progress-Media-Time: 0
+Caller-Channel-Hangup-Time: 0
+Caller-Channel-Transfer-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Screen-Bit: true
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+variable_direction: inbound
+variable_uuid: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+variable_session_id: 219
+variable_sip_from_user: 80000
+variable_sip_from_port: 15288
+variable_sip_from_uri: 80000%40192.168.1.202%3A15288
+variable_sip_from_host: 192.168.1.202
+variable_channel_name: sofia/internal/80000%40192.168.1.202%3A15288
+variable_sip_call_id: MzkxZjU3MTcwYzQ0NGI2MjE1MjhmOWYwYTg0NTYwODI.
+variable_ep_codec_string: PCMU%408000h%4020i%4064000b,PCMA%408000h%4020i%4064000b,GSM%408000h%4020i%4013200b
+variable_sip_local_network_addr: 192.168.1.202
+variable_sip_network_ip: 192.168.1.91
+variable_sip_network_port: 47134
+variable_sip_received_ip: 192.168.1.91
+variable_sip_received_port: 47134
+variable_sip_via_protocol: udp
+variable_sip_authorized: true
+variable_sip_acl_authed_by: domains
+variable_sip_from_user_stripped: 80000
+variable_sip_from_tag: 86143071
+variable_sofia_profile_name: internal
+variable_recovery_profile_name: internal
+variable_sip_full_via: SIP/2.0/UDP%20192.168.1.91%3A47134%3Bbranch%3Dz9hG4bK-d8754z-9f420162a06bc01f-1---d8754z-%3Brport%3D47134
+variable_sip_from_display: zhuguan
+variable_sip_full_from: %22zhuguan%22%20%3Csip%3A80000%40192.168.1.202%3A15288%3E%3Btag%3D86143071
+variable_sip_to_display: 12345
+variable_sip_full_to: %2212345%22%20%3Csip%3A12345%40192.168.1.202%3A15288%3E
+variable_sip_req_user: 12345
+variable_sip_req_port: 15288
+variable_sip_req_uri: 12345%40192.168.1.202%3A15288
+variable_sip_req_host: 192.168.1.202
+variable_sip_to_user: 12345
+variable_sip_to_port: 15288
+variable_sip_to_uri: 12345%40192.168.1.202%3A15288
+variable_sip_to_host: 192.168.1.202
+variable_sip_contact_user: 80000
+variable_sip_contact_port: 47134
+variable_sip_contact_uri: 80000%40192.168.1.91%3A47134
+variable_sip_contact_host: 192.168.1.91
+variable_rtp_use_codec_string: G722,PCMU,PCMA,GSM
+variable_sip_user_agent: eyeBeam%20release%201100l%20stamp%2046320
+variable_sip_via_host: 192.168.1.91
+variable_sip_via_port: 47134
+variable_sip_via_rport: 47134
+variable_max_forwards: 70
+variable_presence_id: 80000%40192.168.1.202
+variable_switch_r_sdp: v%3D0%0D%0Ao%3D-%208%202%20IN%20IP4%20192.168.1.91%0D%0As%3DCounterPath%20eyeBeam%201.5%0D%0Ac%3DIN%20IP4%20192.168.1.91%0D%0At%3D0%200%0D%0Am%3Daudio%2035302%20RTP/AVP%20107%20100%20106%206%200%20105%208%2018%203%205%20101%0D%0Aa%3Drtpmap%3A107%20BV32/16000%0D%0Aa%3Drtpmap%3A100%20SPEEX/16000%0D%0Aa%3Drtpmap%3A106%20SPEEX-FEC/16000%0D%0Aa%3Drtpmap%3A105%20SPEEX-FEC/8000%0D%0Aa%3Drtpmap%3A18%20G729/8000%0D%0Aa%3Dfmtp%3A18%20annexb%3Dyes%0D%0Aa%3Drtpmap%3A101%20telephone-event/8000%0D%0Aa%3Dfmtp%3A101%200-15%0D%0Aa%3Dalt%3A1%203%20%3A%20pTHwIPXQ%20CqRbstbB%20192.168.1.91%2035302%0D%0Aa%3Dalt%3A2%202%20%3A%20u42NuUpd%20aMRY/35y%20192.168.17.1%2035302%0D%0Aa%3Dalt%3A3%201%20%3A%205tHjnGlV%20Zy30QqWa%20192.168.61.1%2035302%0D%0Aa%3Dx-rtp-session-id%3A10F3540605834226AF655A1C452711F7%0D%0A
+variable_endpoint_disposition: DELAYED%20NEGOTIATION
+variable_DP_MATCH: ARRAY%3A%3A12345%7C%3A12345
+variable_call_uuid: 2bf74034-98ac-11ea-ba1f-d18c212b558c
+variable_open: true
+variable_socket_host: 127.0.0.1
+variable_current_loop: 1
+variable_total_loops: 1
+variable_current_application: park
+Application: park
+Application-Response: _none_
+Application-UUID: 2bfabc14-98ac-11ea-ba23-d18c212b558c
+
+
+
+
+
+Answer-State: ringing
+Call-Direction: inbound
+Caller-Ani: 80000
+Caller-Caller-Id-Name: zhuguan
+Caller-Caller-Id-Number: 80000
+Caller-Channel-Answered-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Created-Time: 1589877809579702
+Caller-Channel-Hangup-Time: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Caller-Channel-Progress-Media-Time: 0
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Transfer-Time: 0
+Caller-Context: default
+Caller-Destination-Number: 123456
+Caller-Dialplan: XML
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Network-Addr: 192.168.1.90
+Caller-Orig-Caller-Id-Name: zhuguan
+Caller-Orig-Caller-Id-Number: 80000
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+Caller-Profile-Created-Time: 1589877809579702
+Caller-Profile-Index: 1
+Caller-Screen-Bit: true
+Caller-Source: mod_sofia
+Caller-Unique-Id: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Caller-Username: 80000
+Channel-Ani: 80000
+Channel-Call-State: RINGING
+Channel-Call-Uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Channel-Caller-Id-Name: zhuguan
+Channel-Caller-Id-Number: 80000
+Channel-Channel-Answered-Time: 0
+Channel-Channel-Bridged-Time: 0
+Channel-Channel-Created-Time: 1589877809579702
+Channel-Channel-Hangup-Time: 0
+Channel-Channel-Hold-Accum: 0
+Channel-Channel-Last-Hold: 0
+Channel-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Channel-Channel-Progress-Media-Time: 0
+Channel-Channel-Progress-Time: 0
+Channel-Channel-Resurrect-Time: 0
+Channel-Channel-Transfer-Time: 0
+Channel-Context: default
+Channel-Destination-Number: 123456
+Channel-Dialplan: XML
+Channel-Direction: inbound
+Channel-Hit-Dialplan: true
+Channel-Logical-Direction: inbound
+Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Channel-Network-Addr: 192.168.1.90
+Channel-Orig-Caller-Id-Name: zhuguan
+Channel-Orig-Caller-Id-Number: 80000
+Channel-Presence-Id: 80000@192.168.1.202
+Channel-Privacy-Hide-Name: false
+Channel-Privacy-Hide-Number: false
+Channel-Profile-Created-Time: 1589877809579702
+Channel-Profile-Index: 1
+Channel-Screen-Bit: true
+Channel-Source: mod_sofia
+Channel-State: CS_EXECUTE
+Channel-State-Number: 4
+Channel-Unique-Id: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Channel-Username: 80000
+Content-Type: command/reply
+Control: full
+Core-Uuid: 54804d26-7e02-11ea-a77c-d18c212b558c
+Event-Calling-File: mod_event_socket.c
+Event-Calling-Function: parse_command
+Event-Calling-Line-Number: 1979
+Event-Date-Gmt: Tue, 19 May 2020 08:43:29 GMT
+Event-Date-Local: 2020-05-19 16:43:29
+Event-Date-Timestamp: 1589877809579702
+Event-Name: CHANNEL_DATA
+Event-Sequence: 644794
+Freeswitch-Hostname: container
+Freeswitch-Ipv4: 192.168.1.202
+Freeswitch-Ipv6: ::1
+Freeswitch-Switchname: container
+Presence-Call-Direction: inbound
+Reply-Text: +OK
+
+Socket-Mode: async
+Unique-Id: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Variable_call_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Variable_channel_name: sofia/internal/80000@192.168.1.202:15288
+Variable_current_application: socket
+Variable_current_application_data: 127.0.0.1:8084 async full
+Variable_direction: inbound
+Variable_dp_match: ARRAY::123456|:123456
+Variable_endpoint_disposition: DELAYED NEGOTIATION
+Variable_ep_codec_string: PCMU@8000h@20i@64000b,PCMA@8000h@20i@64000b,GSM@8000h@20i@13200b
+Variable_max_forwards: 70
+Variable_open: true
+Variable_presence_id: 80000@192.168.1.202
+Variable_recovery_profile_name: internal
+Variable_rtp_use_codec_string: G722,PCMU,PCMA,GSM
+Variable_session_id: 290
+Variable_sip_acl_authed_by: domains
+Variable_sip_authorized: true
+Variable_sip_call_id: YTc4ZjM0NDUxNjQ4MjFlZjY1MDI1YmQyYmFhM2M4ZTc.
+Variable_sip_contact_host: 192.168.1.90
+Variable_sip_contact_port: 47440
+Variable_sip_contact_uri: 80000@192.168.1.90:47440
+Variable_sip_contact_user: 80000
+Variable_sip_from_display: zhuguan
+Variable_sip_from_host: 192.168.1.202
+Variable_sip_from_port: 15288
+Variable_sip_from_tag: 767e4552
+Variable_sip_from_uri: 80000@192.168.1.202:15288
+Variable_sip_from_user: 80000
+Variable_sip_from_user_stripped: 80000
+Variable_sip_full_from: "zhuguan" <sip:80000@192.168.1.202:15288>;tag=767e4552
+Variable_sip_full_to: "123456" <sip:123456@192.168.1.202:15288>
+Variable_sip_full_via: SIP/2.0/UDP 192.168.1.90:47440;branch=z9hG4bK-d8754z-1f12c01b9862cc76-1---d8754z-;rport=47440
+Variable_sip_local_network_addr: 192.168.1.202
+Variable_sip_network_ip: 192.168.1.90
+Variable_sip_network_port: 47440
+Variable_sip_received_ip: 192.168.1.90
+Variable_sip_received_port: 47440
+Variable_sip_req_host: 192.168.1.202
+Variable_sip_req_port: 15288
+Variable_sip_req_uri: 123456@192.168.1.202:15288
+Variable_sip_req_user: 123456
+Variable_sip_to_display: 123456
+Variable_sip_to_host: 192.168.1.202
+Variable_sip_to_port: 15288
+Variable_sip_to_uri: 123456@192.168.1.202:15288
+Variable_sip_to_user: 123456
+Variable_sip_user_agent: eyeBeam release 1100l stamp 46320
+Variable_sip_via_host: 192.168.1.90
+Variable_sip_via_port: 47440
+Variable_sip_via_protocol: udp
+Variable_sip_via_rport: 47440
+Variable_socket_host: 127.0.0.1
+Variable_sofia_profile_name: internal
+Variable_switch_r_sdp: v=0
+o=- 1 2 IN IP4 192.168.1.90
+s=CounterPath eyeBeam 1.5
+c=IN IP4 192.168.1.90
+t=0 0
+m=audio 16062 RTP/AVP 107 100 106 6 0 105 8 18 3 5 101
+a=rtpmap:107 BV32/16000
+a=rtpmap:100 SPEEX/16000
+a=rtpmap:106 SPEEX-FEC/16000
+a=rtpmap:105 SPEEX-FEC/8000
+a=rtpmap:18 G729/8000
+a=fmtp:18 annexb=yes
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=alt:1 3 : 3Kvhd3aT Fqtqws4d 192.168.1.90 16062
+a=alt:2 2 : Kwq7sOgs CUuWj+oU 192.168.17.1 16062
+a=alt:3 1 : UIy331U9 02SsHo2M 192.168.61.1 16062
+a=x-rtp-session-id:BA74E2F835D54DC08D78E39E0BBCF3CE
+
+Variable_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+16:43:29.598 Debug ▶ DEBUG matched handler: (dialplan.HandlerFunc)(0x53e270)
+16:43:29.598 Debug ▶ DEBUG Got message content (type: command/reply). Searching if we can handle it ...
+16:43:29.598 Debug ▶ DEBUG Waiting for connection message to be received ...
+16:43:29.599 Debug ▶ DEBUG Got message content (type: command/reply). Searching if we can handle it ...
+16:43:29.599 Debug ▶ DEBUG NEW MESSAGE INCOMING......
+Content-Type: command/reply
+Reply-Text: +OK
+16:43:29.599 Error ▶ ERROR request uri is empty.
+16:43:29.599 Debug ▶ DEBUG Waiting for connection message to be received ...
+16:43:29.639 Debug ▶ DEBUG Got message content (type: text/event-plain). Searching if we can handle it ...
+16:43:29.639 Debug ▶ DEBUG Got message content (type: text/event-plain). Searching if we can handle it ...
+16:43:29.639 Debug ▶ DEBUG NEW MESSAGE INCOMING......
+Content-Length: 2139
+Content-Type: text/event-plain
+BODY:
+Event-Name: CHANNEL_CALLSTATE
+Core-UUID: 54804d26-7e02-11ea-a77c-d18c212b558c
+FreeSWITCH-Hostname: container
+FreeSWITCH-Switchname: container
+FreeSWITCH-IPv4: 192.168.1.202
+FreeSWITCH-IPv6: ::1
+Event-Date-Local: 2020-05-19 16:43:29
+Event-Date-GMT: Tue, 19 May 2020 08:43:29 GMT
+Event-Date-Timestamp: 1589877809619920
+Event-Calling-File: switch_channel.c
+Event-Calling-Function: switch_channel_perform_set_callstate
+Event-Calling-Line-Number: 285
+Event-Sequence: 644800
+Original-Channel-Call-State: RINGING
+Channel-Call-State-Number: 3
+Channel-State: CS_EXECUTE
+Channel-Call-State: EARLY
+Channel-State-Number: 4
+Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Call-Direction: inbound
+Presence-Call-Direction: inbound
+Channel-HIT-Dialplan: true
+Channel-Presence-ID: 80000@192.168.1.202
+Channel-Call-UUID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Answer-State: early
+Channel-Read-Codec-Name: PCMU
+Channel-Read-Codec-Rate: 8000
+Channel-Read-Codec-Bit-Rate: 64000
+Channel-Write-Codec-Name: PCMU
+Channel-Write-Codec-Rate: 8000
+Channel-Write-Codec-Bit-Rate: 64000
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Username: 80000
+Caller-Dialplan: XML
+Caller-Caller-ID-Name: zhuguan
+Caller-Caller-ID-Number: 80000
+Caller-Orig-Caller-ID-Name: zhuguan
+Caller-Orig-Caller-ID-Number: 80000
+Caller-Network-Addr: 192.168.1.90
+Caller-ANI: 80000
+Caller-Destination-Number: 123456
+Caller-Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Caller-Source: mod_sofia
+Caller-Context: default
+Caller-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Caller-Profile-Index: 1
+Caller-Profile-Created-Time: 1589877809579702
+Caller-Channel-Created-Time: 1589877809579702
+Caller-Channel-Answered-Time: 0
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Progress-Media-Time: 1589877809619920
+Caller-Channel-Hangup-Time: 0
+Caller-Channel-Transfer-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Screen-Bit: true
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+
+
+16:43:29.639 Error ▶ ERROR request uri is empty.
+16:43:29.639 Debug ▶ DEBUG Waiting for connection message to be received ...
+16:43:29.639 Debug ▶ DEBUG NEW MESSAGE INCOMING......
+Content-Length: 6364
+Content-Type: text/event-plain
+BODY:
+Event-Name: CHANNEL_ANSWER
+Core-UUID: 54804d26-7e02-11ea-a77c-d18c212b558c
+FreeSWITCH-Hostname: container
+FreeSWITCH-Switchname: container
+FreeSWITCH-IPv4: 192.168.1.202
+FreeSWITCH-IPv6: ::1
+Event-Date-Local: 2020-05-19 16:43:29
+Event-Date-GMT: Tue, 19 May 2020 08:43:29 GMT
+Event-Date-Timestamp: 1589877809619920
+Event-Calling-File: switch_channel.c
+Event-Calling-Function: switch_channel_perform_mark_answered
+Event-Calling-Line-Number: 3649
+Event-Sequence: 644801
+Channel-State: CS_EXECUTE
+Channel-Call-State: EARLY
+Channel-State-Number: 4
+Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Call-Direction: inbound
+Presence-Call-Direction: inbound
+Channel-HIT-Dialplan: true
+Channel-Presence-ID: 80000@192.168.1.202
+Channel-Call-UUID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Answer-State: answered
+Channel-Read-Codec-Name: PCMU
+Channel-Read-Codec-Rate: 8000
+Channel-Read-Codec-Bit-Rate: 64000
+Channel-Write-Codec-Name: PCMU
+Channel-Write-Codec-Rate: 8000
+Channel-Write-Codec-Bit-Rate: 64000
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Username: 80000
+Caller-Dialplan: XML
+Caller-Caller-ID-Name: zhuguan
+Caller-Caller-ID-Number: 80000
+Caller-Orig-Caller-ID-Name: zhuguan
+Caller-Orig-Caller-ID-Number: 80000
+Caller-Network-Addr: 192.168.1.90
+Caller-ANI: 80000
+Caller-Destination-Number: 123456
+Caller-Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Caller-Source: mod_sofia
+Caller-Context: default
+Caller-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Caller-Profile-Index: 1
+Caller-Profile-Created-Time: 1589877809579702
+Caller-Channel-Created-Time: 1589877809579702
+Caller-Channel-Answered-Time: 1589877809619920
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Progress-Media-Time: 1589877809619920
+Caller-Channel-Hangup-Time: 0
+Caller-Channel-Transfer-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Screen-Bit: true
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+variable_direction: inbound
+variable_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+variable_session_id: 290
+variable_sip_from_user: 80000
+variable_sip_from_port: 15288
+variable_sip_from_uri: 80000@192.168.1.202:15288
+variable_sip_from_host: 192.168.1.202
+variable_channel_name: sofia/internal/80000@192.168.1.202:15288
+variable_sip_call_id: YTc4ZjM0NDUxNjQ4MjFlZjY1MDI1YmQyYmFhM2M4ZTc.
+variable_ep_codec_string: PCMU@8000h@20i@64000b,PCMA@8000h@20i@64000b,GSM@8000h@20i@13200b
+variable_sip_local_network_addr: 192.168.1.202
+variable_sip_network_ip: 192.168.1.90
+variable_sip_network_port: 47440
+variable_sip_received_ip: 192.168.1.90
+variable_sip_received_port: 47440
+variable_sip_via_protocol: udp
+variable_sip_authorized: true
+variable_sip_acl_authed_by: domains
+variable_sip_from_user_stripped: 80000
+variable_sip_from_tag: 767e4552
+variable_sofia_profile_name: internal
+variable_recovery_profile_name: internal
+variable_sip_full_via: SIP/2.0/UDP 192.168.1.90:47440;branch=z9hG4bK-d8754z-1f12c01b9862cc76-1---d8754z-;rport=47440
+variable_sip_from_display: zhuguan
+variable_sip_full_from: "zhuguan" <sip:80000@192.168.1.202:15288>;tag=767e4552
+variable_sip_to_display: 123456
+variable_sip_full_to: "123456" <sip:123456@192.168.1.202:15288>
+variable_sip_req_user: 123456
+variable_sip_req_port: 15288
+variable_sip_req_uri: 123456@192.168.1.202:15288
+variable_sip_req_host: 192.168.1.202
+variable_sip_to_user: 123456
+variable_sip_to_port: 15288
+variable_sip_to_uri: 123456@192.168.1.202:15288
+variable_sip_to_host: 192.168.1.202
+variable_sip_contact_user: 80000
+variable_sip_contact_port: 47440
+variable_sip_contact_uri: 80000@192.168.1.90:47440
+variable_sip_contact_host: 192.168.1.90
+variable_sip_user_agent: eyeBeam release 1100l stamp 46320
+variable_sip_via_host: 192.168.1.90
+variable_sip_via_port: 47440
+variable_sip_via_rport: 47440
+variable_max_forwards: 70
+variable_presence_id: 80000@192.168.1.202
+variable_switch_r_sdp: v=0
+o=- 1 2 IN IP4 192.168.1.90
+s=CounterPath eyeBeam 1.5
+c=IN IP4 192.168.1.90
+t=0 0
+m=audio 16062 RTP/AVP 107 100 106 6 0 105 8 18 3 5 101
+a=rtpmap:107 BV32/16000
+a=rtpmap:100 SPEEX/16000
+a=rtpmap:106 SPEEX-FEC/16000
+a=rtpmap:105 SPEEX-FEC/8000
+a=rtpmap:18 G729/8000
+a=fmtp:18 annexb=yes
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=alt:1 3 : 3Kvhd3aT Fqtqws4d 192.168.1.90 16062
+a=alt:2 2 : Kwq7sOgs CUuWj+oU 192.168.17.1 16062
+a=alt:3 1 : UIy331U9 02SsHo2M 192.168.61.1 16062
+a=x-rtp-session-id:BA74E2F835D54DC08D78E39E0BBCF3CE
+
+variable_DP_MATCH: ARRAY::123456|:123456
+variable_call_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+variable_open: true
+variable_socket_host: 127.0.0.1
+variable_current_loop: 1
+variable_total_loops: 1
+variable_current_application: answer
+variable_rtp_use_codec_string: G722,PCMU,PCMA,GSM
+variable_rtp_audio_recv_pt: 0
+variable_rtp_use_codec_name: PCMU
+variable_rtp_use_codec_rate: 8000
+variable_rtp_use_codec_ptime: 20
+variable_rtp_use_codec_channels: 1
+variable_rtp_last_audio_codec_string: PCMU@8000h@20i@1c
+variable_read_codec: PCMU
+variable_original_read_codec: PCMU
+variable_read_rate: 8000
+variable_original_read_rate: 8000
+variable_write_codec: PCMU
+variable_write_rate: 8000
+variable_dtmf_type: rfc2833
+variable_local_media_ip: 192.168.1.202
+variable_local_media_port: 24976
+variable_advertised_media_ip: 192.168.1.202
+variable_rtp_use_timer_name: soft
+variable_rtp_use_pt: 0
+variable_rtp_use_ssrc: 1793474721
+variable_rtp_2833_send_payload: 101
+variable_rtp_2833_recv_payload: 101
+variable_remote_media_ip: 192.168.1.90
+variable_remote_media_port: 16062
+variable_endpoint_disposition: EARLY MEDIA
+variable_rtp_local_sdp_str: v=0
+o=FreeSWITCH 1589852833 1589852834 IN IP4 192.168.1.202
+s=FreeSWITCH
+c=IN IP4 192.168.1.202
+t=0 0
+m=audio 24976 RTP/AVP 0 101
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=sendrecv
+
+
+
+16:43:29.639 Debug ▶ DEBUG Got message content (type: text/event-plain). Searching if we can handle it ...
+16:43:29.640 Error ▶ ERROR request uri is empty.
+16:43:29.640 Debug ▶ DEBUG Waiting for connection message to be received ...
+16:43:29.641 Debug ▶ DEBUG Got message content (type: text/event-plain). Searching if we can handle it ...
+16:43:29.641 Debug ▶ DEBUG NEW MESSAGE INCOMING......
+Content-Length: 2156
+Content-Type: text/event-plain
+BODY:
+Event-Name: CHANNEL_CALLSTATE
+Core-UUID: 54804d26-7e02-11ea-a77c-d18c212b558c
+FreeSWITCH-Hostname: container
+FreeSWITCH-Switchname: container
+FreeSWITCH-IPv4: 192.168.1.202
+FreeSWITCH-IPv6: ::1
+Event-Date-Local: 2020-05-19 16:43:29
+Event-Date-GMT: Tue, 19 May 2020 08:43:29 GMT
+Event-Date-Timestamp: 1589877809619920
+Event-Calling-File: switch_channel.c
+Event-Calling-Function: switch_channel_perform_set_callstate
+Event-Calling-Line-Number: 285
+Event-Sequence: 644803
+Original-Channel-Call-State: EARLY
+Channel-Call-State-Number: 4
+Channel-State: CS_EXECUTE
+Channel-Call-State: ACTIVE
+Channel-State-Number: 4
+Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Call-Direction: inbound
+Presence-Call-Direction: inbound
+Channel-HIT-Dialplan: true
+Channel-Presence-ID: 80000@192.168.1.202
+Channel-Call-UUID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Answer-State: answered
+Channel-Read-Codec-Name: PCMU
+Channel-Read-Codec-Rate: 8000
+Channel-Read-Codec-Bit-Rate: 64000
+Channel-Write-Codec-Name: PCMU
+Channel-Write-Codec-Rate: 8000
+Channel-Write-Codec-Bit-Rate: 64000
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Username: 80000
+Caller-Dialplan: XML
+Caller-Caller-ID-Name: zhuguan
+Caller-Caller-ID-Number: 80000
+Caller-Orig-Caller-ID-Name: zhuguan
+Caller-Orig-Caller-ID-Number: 80000
+Caller-Network-Addr: 192.168.1.90
+Caller-ANI: 80000
+Caller-Destination-Number: 123456
+Caller-Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Caller-Source: mod_sofia
+Caller-Context: default
+Caller-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Caller-Profile-Index: 1
+Caller-Profile-Created-Time: 1589877809579702
+Caller-Channel-Created-Time: 1589877809579702
+Caller-Channel-Answered-Time: 1589877809619920
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Progress-Media-Time: 1589877809619920
+Caller-Channel-Hangup-Time: 0
+Caller-Channel-Transfer-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Screen-Bit: true
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+
+
+16:43:29.641 Error ▶ ERROR request uri is empty.
+16:43:29.641 Debug ▶ DEBUG Waiting for connection message to be received ...
+16:43:29.641 Debug ▶ DEBUG NEW MESSAGE INCOMING......
+Content-Length: 6465
+Content-Type: text/event-plain
+BODY:
+Event-Name: CHANNEL_EXECUTE_COMPLETE
+Core-UUID: 54804d26-7e02-11ea-a77c-d18c212b558c
+FreeSWITCH-Hostname: container
+FreeSWITCH-Switchname: container
+FreeSWITCH-IPv4: 192.168.1.202
+FreeSWITCH-IPv6: ::1
+Event-Date-Local: 2020-05-19 16:43:29
+Event-Date-GMT: Tue, 19 May 2020 08:43:29 GMT
+Event-Date-Timestamp: 1589877809619920
+Event-Calling-File: switch_core_session.c
+Event-Calling-Function: switch_core_session_exec
+Event-Calling-Line-Number: 2756
+Event-Sequence: 644804
+Channel-State: CS_EXECUTE
+Channel-Call-State: ACTIVE
+Channel-State-Number: 4
+Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Call-Direction: inbound
+Presence-Call-Direction: inbound
+Channel-HIT-Dialplan: true
+Channel-Presence-ID: 80000@192.168.1.202
+Channel-Call-UUID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Answer-State: answered
+Channel-Read-Codec-Name: PCMU
+Channel-Read-Codec-Rate: 8000
+Channel-Read-Codec-Bit-Rate: 64000
+Channel-Write-Codec-Name: PCMU
+Channel-Write-Codec-Rate: 8000
+Channel-Write-Codec-Bit-Rate: 64000
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Username: 80000
+Caller-Dialplan: XML
+Caller-Caller-ID-Name: zhuguan
+Caller-Caller-ID-Number: 80000
+Caller-Orig-Caller-ID-Name: zhuguan
+Caller-Orig-Caller-ID-Number: 80000
+Caller-Network-Addr: 192.168.1.90
+Caller-ANI: 80000
+Caller-Destination-Number: 123456
+Caller-Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Caller-Source: mod_sofia
+Caller-Context: default
+Caller-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Caller-Profile-Index: 1
+Caller-Profile-Created-Time: 1589877809579702
+Caller-Channel-Created-Time: 1589877809579702
+Caller-Channel-Answered-Time: 1589877809619920
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Progress-Media-Time: 1589877809619920
+Caller-Channel-Hangup-Time: 0
+Caller-Channel-Transfer-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Screen-Bit: true
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+variable_direction: inbound
+variable_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+variable_session_id: 290
+variable_sip_from_user: 80000
+variable_sip_from_port: 15288
+variable_sip_from_uri: 80000@192.168.1.202:15288
+variable_sip_from_host: 192.168.1.202
+variable_channel_name: sofia/internal/80000@192.168.1.202:15288
+variable_sip_call_id: YTc4ZjM0NDUxNjQ4MjFlZjY1MDI1YmQyYmFhM2M4ZTc.
+variable_ep_codec_string: PCMU@8000h@20i@64000b,PCMA@8000h@20i@64000b,GSM@8000h@20i@13200b
+variable_sip_local_network_addr: 192.168.1.202
+variable_sip_network_ip: 192.168.1.90
+variable_sip_network_port: 47440
+variable_sip_received_ip: 192.168.1.90
+variable_sip_received_port: 47440
+variable_sip_via_protocol: udp
+variable_sip_authorized: true
+variable_sip_acl_authed_by: domains
+variable_sip_from_user_stripped: 80000
+variable_sip_from_tag: 767e4552
+variable_sofia_profile_name: internal
+variable_recovery_profile_name: internal
+variable_sip_full_via: SIP/2.0/UDP 192.168.1.90:47440;branch=z9hG4bK-d8754z-1f12c01b9862cc76-1---d8754z-;rport=47440
+variable_sip_from_display: zhuguan
+variable_sip_full_from: "zhuguan" <sip:80000@192.168.1.202:15288>;tag=767e4552
+variable_sip_to_display: 123456
+variable_sip_full_to: "123456" <sip:123456@192.168.1.202:15288>
+variable_sip_req_user: 123456
+variable_sip_req_port: 15288
+variable_sip_req_uri: 123456@192.168.1.202:15288
+variable_sip_req_host: 192.168.1.202
+variable_sip_to_user: 123456
+variable_sip_to_port: 15288
+variable_sip_to_uri: 123456@192.168.1.202:15288
+variable_sip_to_host: 192.168.1.202
+variable_sip_contact_user: 80000
+variable_sip_contact_port: 47440
+variable_sip_contact_uri: 80000@192.168.1.90:47440
+variable_sip_contact_host: 192.168.1.90
+variable_sip_user_agent: eyeBeam release 1100l stamp 46320
+variable_sip_via_host: 192.168.1.90
+variable_sip_via_port: 47440
+variable_sip_via_rport: 47440
+variable_max_forwards: 70
+variable_presence_id: 80000@192.168.1.202
+variable_switch_r_sdp: v=0
+o=- 1 2 IN IP4 192.168.1.90
+s=CounterPath eyeBeam 1.5
+c=IN IP4 192.168.1.90
+t=0 0
+m=audio 16062 RTP/AVP 107 100 106 6 0 105 8 18 3 5 101
+a=rtpmap:107 BV32/16000
+a=rtpmap:100 SPEEX/16000
+a=rtpmap:106 SPEEX-FEC/16000
+a=rtpmap:105 SPEEX-FEC/8000
+a=rtpmap:18 G729/8000
+a=fmtp:18 annexb=yes
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=alt:1 3 : 3Kvhd3aT Fqtqws4d 192.168.1.90 16062
+a=alt:2 2 : Kwq7sOgs CUuWj+oU 192.168.17.1 16062
+a=alt:3 1 : UIy331U9 02SsHo2M 192.168.61.1 16062
+a=x-rtp-session-id:BA74E2F835D54DC08D78E39E0BBCF3CE
+
+variable_DP_MATCH: ARRAY::123456|:123456
+variable_call_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+variable_open: true
+variable_socket_host: 127.0.0.1
+variable_current_loop: 1
+variable_total_loops: 1
+variable_current_application: answer
+variable_rtp_use_codec_string: G722,PCMU,PCMA,GSM
+variable_rtp_audio_recv_pt: 0
+variable_rtp_use_codec_name: PCMU
+variable_rtp_use_codec_rate: 8000
+variable_rtp_use_codec_ptime: 20
+variable_rtp_use_codec_channels: 1
+variable_rtp_last_audio_codec_string: PCMU@8000h@20i@1c
+variable_read_codec: PCMU
+variable_original_read_codec: PCMU
+variable_read_rate: 8000
+variable_original_read_rate: 8000
+variable_write_codec: PCMU
+variable_write_rate: 8000
+variable_dtmf_type: rfc2833
+variable_local_media_ip: 192.168.1.202
+variable_local_media_port: 24976
+variable_advertised_media_ip: 192.168.1.202
+variable_rtp_use_timer_name: soft
+variable_rtp_use_pt: 0
+variable_rtp_use_ssrc: 1793474721
+variable_rtp_2833_send_payload: 101
+variable_rtp_2833_recv_payload: 101
+variable_remote_media_ip: 192.168.1.90
+variable_remote_media_port: 16062
+variable_rtp_local_sdp_str: v=0
+o=FreeSWITCH 1589852833 1589852834 IN IP4 192.168.1.202
+s=FreeSWITCH
+c=IN IP4 192.168.1.202
+t=0 0
+m=audio 24976 RTP/AVP 0 101
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=sendrecv
+
+variable_endpoint_disposition: ANSWER
+Application: answer
+Application-Response: _none_
+Application-UUID: d04a7f42-99ac-11ea-bbe3-d18c212b558c
+
+
+16:43:29.642 Error ▶ ERROR request uri is empty.
+16:43:29.642 Debug ▶ DEBUG Waiting for connection message to be received ...
+16:43:39.245 Debug ▶ DEBUG Got message content (type: text/event-plain). Searching if we can handle it ...
+16:43:39.245 Debug ▶ DEBUG Got message content (type: text/event-plain). Searching if we can handle it ...
+16:43:39.246 Debug ▶ DEBUG NEW MESSAGE INCOMING......
+Content-Length: 7204
+Content-Type: text/event-plain
+BODY:
+Event-Name: CHANNEL_EXECUTE_COMPLETE
+Core-UUID: 54804d26-7e02-11ea-a77c-d18c212b558c
+FreeSWITCH-Hostname: container
+FreeSWITCH-Switchname: container
+FreeSWITCH-IPv4: 192.168.1.202
+FreeSWITCH-IPv6: ::1
+Event-Date-Local: 2020-05-19 16:43:39
+Event-Date-GMT: Tue, 19 May 2020 08:43:39 GMT
+Event-Date-Timestamp: 1589877819239707
+Event-Calling-File: switch_core_session.c
+Event-Calling-Function: switch_core_session_exec
+Event-Calling-Line-Number: 2756
+Event-Sequence: 644813
+Channel-State: CS_EXECUTE
+Channel-Call-State: ACTIVE
+Channel-State-Number: 10
+Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Call-Direction: inbound
+Presence-Call-Direction: inbound
+Channel-HIT-Dialplan: true
+Channel-Presence-ID: 80000@192.168.1.202
+Channel-Call-UUID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Answer-State: hangup
+Hangup-Cause: NORMAL_CLEARING
+Channel-Read-Codec-Name: PCMU
+Channel-Read-Codec-Rate: 8000
+Channel-Read-Codec-Bit-Rate: 64000
+Channel-Write-Codec-Name: PCMU
+Channel-Write-Codec-Rate: 8000
+Channel-Write-Codec-Bit-Rate: 64000
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Username: 80000
+Caller-Dialplan: XML
+Caller-Caller-ID-Name: zhuguan
+Caller-Caller-ID-Number: 80000
+Caller-Orig-Caller-ID-Name: zhuguan
+Caller-Orig-Caller-ID-Number: 80000
+Caller-Network-Addr: 192.168.1.90
+Caller-ANI: 80000
+Caller-Destination-Number: 123456
+Caller-Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Caller-Source: mod_sofia
+Caller-Context: default
+Caller-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Caller-Profile-Index: 1
+Caller-Profile-Created-Time: 1589877809579702
+Caller-Channel-Created-Time: 1589877809579702
+Caller-Channel-Answered-Time: 1589877809619920
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Progress-Media-Time: 1589877809619920
+Caller-Channel-Hangup-Time: 0
+Caller-Channel-Transfer-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Screen-Bit: true
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+variable_direction: inbound
+variable_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+variable_session_id: 290
+variable_sip_from_user: 80000
+variable_sip_from_port: 15288
+variable_sip_from_uri: 80000@192.168.1.202:15288
+variable_sip_from_host: 192.168.1.202
+variable_channel_name: sofia/internal/80000@192.168.1.202:15288
+variable_ep_codec_string: PCMU@8000h@20i@64000b,PCMA@8000h@20i@64000b,GSM@8000h@20i@13200b
+variable_sip_local_network_addr: 192.168.1.202
+variable_sip_network_ip: 192.168.1.90
+variable_sip_network_port: 47440
+variable_sip_received_ip: 192.168.1.90
+variable_sip_received_port: 47440
+variable_sip_via_protocol: udp
+variable_sip_authorized: true
+variable_sip_acl_authed_by: domains
+variable_sip_from_user_stripped: 80000
+variable_sofia_profile_name: internal
+variable_recovery_profile_name: internal
+variable_sip_req_user: 123456
+variable_sip_req_port: 15288
+variable_sip_req_uri: 123456@192.168.1.202:15288
+variable_sip_req_host: 192.168.1.202
+variable_sip_to_user: 123456
+variable_sip_to_port: 15288
+variable_sip_to_uri: 123456@192.168.1.202:15288
+variable_sip_to_host: 192.168.1.202
+variable_sip_contact_user: 80000
+variable_sip_contact_port: 47440
+variable_sip_contact_uri: 80000@192.168.1.90:47440
+variable_sip_contact_host: 192.168.1.90
+variable_sip_via_host: 192.168.1.90
+variable_sip_via_port: 47440
+variable_sip_via_rport: 47440
+variable_max_forwards: 70
+variable_presence_id: 80000@192.168.1.202
+variable_switch_r_sdp: v=0
+o=- 1 2 IN IP4 192.168.1.90
+s=CounterPath eyeBeam 1.5
+c=IN IP4 192.168.1.90
+t=0 0
+m=audio 16062 RTP/AVP 107 100 106 6 0 105 8 18 3 5 101
+a=rtpmap:107 BV32/16000
+a=rtpmap:100 SPEEX/16000
+a=rtpmap:106 SPEEX-FEC/16000
+a=rtpmap:105 SPEEX-FEC/8000
+a=rtpmap:18 G729/8000
+a=fmtp:18 annexb=yes
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=alt:1 3 : 3Kvhd3aT Fqtqws4d 192.168.1.90 16062
+a=alt:2 2 : Kwq7sOgs CUuWj+oU 192.168.17.1 16062
+a=alt:3 1 : UIy331U9 02SsHo2M 192.168.61.1 16062
+a=x-rtp-session-id:BA74E2F835D54DC08D78E39E0BBCF3CE
+
+variable_DP_MATCH: ARRAY::123456|:123456
+variable_call_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+variable_open: true
+variable_socket_host: 127.0.0.1
+variable_rtp_use_codec_string: G722,PCMU,PCMA,GSM
+variable_rtp_audio_recv_pt: 0
+variable_rtp_use_codec_name: PCMU
+variable_rtp_use_codec_rate: 8000
+variable_rtp_use_codec_ptime: 20
+variable_rtp_use_codec_channels: 1
+variable_rtp_last_audio_codec_string: PCMU@8000h@20i@1c
+variable_read_codec: PCMU
+variable_original_read_codec: PCMU
+variable_read_rate: 8000
+variable_original_read_rate: 8000
+variable_write_codec: PCMU
+variable_write_rate: 8000
+variable_dtmf_type: rfc2833
+variable_local_media_ip: 192.168.1.202
+variable_local_media_port: 24976
+variable_advertised_media_ip: 192.168.1.202
+variable_rtp_use_timer_name: soft
+variable_rtp_use_pt: 0
+variable_rtp_use_ssrc: 1793474721
+variable_rtp_2833_send_payload: 101
+variable_rtp_2833_recv_payload: 101
+variable_remote_media_ip: 192.168.1.90
+variable_remote_media_port: 16062
+variable_rtp_local_sdp_str: v=0
+o=FreeSWITCH 1589852833 1589852834 IN IP4 192.168.1.202
+s=FreeSWITCH
+c=IN IP4 192.168.1.202
+t=0 0
+m=audio 24976 RTP/AVP 0 101
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=sendrecv
+
+variable_endpoint_disposition: ANSWER
+variable_current_loop: 1
+variable_total_loops: 1
+variable_current_application_data: 1 1 3 3000 # /home/voices/rings/pbx/ivr_first.wav /home/voices/rings/common/input_error.wav foo_dtmf_digits \d 3000
+variable_current_application: play_and_get_digits
+variable_sip_to_tag: eaXHSF31mrjQK
+variable_sip_from_tag: 767e4552
+variable_sip_cseq: 1
+variable_sip_call_id: YTc4ZjM0NDUxNjQ4MjFlZjY1MDI1YmQyYmFhM2M4ZTc.
+variable_sip_full_via: SIP/2.0/UDP 192.168.1.90:47440;branch=z9hG4bK-d8754z-d345987ecc264056-1---d8754z-;rport=47440
+variable_sip_from_display: zhuguan
+variable_sip_full_from: "zhuguan" <sip:80000@192.168.1.202:15288>;tag=767e4552
+variable_sip_to_display: 123456
+variable_sip_full_to: "123456" <sip:123456@192.168.1.202:15288>;tag=eaXHSF31mrjQK
+variable_sip_term_status: 200
+variable_proto_specific_hangup_cause: sip:200
+variable_sip_term_cause: 16
+variable_sip_user_agent: eyeBeam release 1100l stamp 46320
+variable_sip_hangup_disposition: recv_bye
+variable_playback_last_offset_pos: 7200
+variable_playback_seconds: 2
+variable_playback_ms: 2048
+variable_playback_samples: 16384
+Application: play_and_get_digits
+Application-Data: 1 1 3 3000 # /home/voices/rings/pbx/ivr_first.wav /home/voices/rings/common/input_error.wav foo_dtmf_digits \d 3000
+Application-Response: _none_
+Application-UUID: d04af9ae-99ac-11ea-bbe4-d18c212b558c
+
+
+16:43:39.246 Error ▶ ERROR request uri is empty.
+16:43:39.246 Debug ▶ DEBUG Waiting for connection message to be received ...
+16:43:39.246 Debug ▶ DEBUG NEW MESSAGE INCOMING......
+Content-Length: 7036
+Content-Type: text/event-plain
+BODY:
+Event-Name: CHANNEL_EXECUTE_COMPLETE
+Core-UUID: 54804d26-7e02-11ea-a77c-d18c212b558c
+FreeSWITCH-Hostname: container
+FreeSWITCH-Switchname: container
+FreeSWITCH-IPv4: 192.168.1.202
+FreeSWITCH-IPv6: ::1
+Event-Date-Local: 2020-05-19 16:43:39
+Event-Date-GMT: Tue, 19 May 2020 08:43:39 GMT
+Event-Date-Timestamp: 1589877819239707
+Event-Calling-File: switch_core_session.c
+Event-Calling-Function: switch_core_session_exec
+Event-Calling-Line-Number: 2756
+Event-Sequence: 644816
+Channel-State: CS_EXECUTE
+Channel-Call-State: ACTIVE
+Channel-State-Number: 10
+Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Call-Direction: inbound
+Presence-Call-Direction: inbound
+Channel-HIT-Dialplan: true
+Channel-Presence-ID: 80000@192.168.1.202
+Channel-Call-UUID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Answer-State: hangup
+Hangup-Cause: NORMAL_CLEARING
+Channel-Read-Codec-Name: PCMU
+Channel-Read-Codec-Rate: 8000
+Channel-Read-Codec-Bit-Rate: 64000
+Channel-Write-Codec-Name: PCMU
+Channel-Write-Codec-Rate: 8000
+Channel-Write-Codec-Bit-Rate: 64000
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Username: 80000
+Caller-Dialplan: XML
+Caller-Caller-ID-Name: zhuguan
+Caller-Caller-ID-Number: 80000
+Caller-Orig-Caller-ID-Name: zhuguan
+Caller-Orig-Caller-ID-Number: 80000
+Caller-Network-Addr: 192.168.1.90
+Caller-ANI: 80000
+Caller-Destination-Number: 123456
+Caller-Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Caller-Source: mod_sofia
+Caller-Context: default
+Caller-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Caller-Profile-Index: 1
+Caller-Profile-Created-Time: 1589877809579702
+Caller-Channel-Created-Time: 1589877809579702
+Caller-Channel-Answered-Time: 1589877809619920
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Progress-Media-Time: 1589877809619920
+Caller-Channel-Hangup-Time: 0
+Caller-Channel-Transfer-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Screen-Bit: true
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+variable_direction: inbound
+variable_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+variable_session_id: 290
+variable_sip_from_user: 80000
+variable_sip_from_port: 15288
+variable_sip_from_uri: 80000@192.168.1.202:15288
+variable_sip_from_host: 192.168.1.202
+variable_channel_name: sofia/internal/80000@192.168.1.202:15288
+variable_ep_codec_string: PCMU@8000h@20i@64000b,PCMA@8000h@20i@64000b,GSM@8000h@20i@13200b
+variable_sip_local_network_addr: 192.168.1.202
+variable_sip_network_ip: 192.168.1.90
+variable_sip_network_port: 47440
+variable_sip_received_ip: 192.168.1.90
+variable_sip_received_port: 47440
+variable_sip_via_protocol: udp
+variable_sip_authorized: true
+variable_sip_acl_authed_by: domains
+variable_sip_from_user_stripped: 80000
+variable_sofia_profile_name: internal
+variable_recovery_profile_name: internal
+variable_sip_req_user: 123456
+variable_sip_req_port: 15288
+variable_sip_req_uri: 123456@192.168.1.202:15288
+variable_sip_req_host: 192.168.1.202
+variable_sip_to_user: 123456
+variable_sip_to_port: 15288
+variable_sip_to_uri: 123456@192.168.1.202:15288
+variable_sip_to_host: 192.168.1.202
+variable_sip_contact_user: 80000
+variable_sip_contact_port: 47440
+variable_sip_contact_uri: 80000@192.168.1.90:47440
+variable_sip_contact_host: 192.168.1.90
+variable_sip_via_host: 192.168.1.90
+variable_sip_via_port: 47440
+variable_sip_via_rport: 47440
+variable_max_forwards: 70
+variable_presence_id: 80000@192.168.1.202
+variable_switch_r_sdp: v=0
+o=- 1 2 IN IP4 192.168.1.90
+s=CounterPath eyeBeam 1.5
+c=IN IP4 192.168.1.90
+t=0 0
+m=audio 16062 RTP/AVP 107 100 106 6 0 105 8 18 3 5 101
+a=rtpmap:107 BV32/16000
+a=rtpmap:100 SPEEX/16000
+a=rtpmap:106 SPEEX-FEC/16000
+a=rtpmap:105 SPEEX-FEC/8000
+a=rtpmap:18 G729/8000
+a=fmtp:18 annexb=yes
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=alt:1 3 : 3Kvhd3aT Fqtqws4d 192.168.1.90 16062
+a=alt:2 2 : Kwq7sOgs CUuWj+oU 192.168.17.1 16062
+a=alt:3 1 : UIy331U9 02SsHo2M 192.168.61.1 16062
+a=x-rtp-session-id:BA74E2F835D54DC08D78E39E0BBCF3CE
+
+variable_DP_MATCH: ARRAY::123456|:123456
+variable_call_uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+variable_open: true
+variable_socket_host: 127.0.0.1
+variable_rtp_use_codec_string: G722,PCMU,PCMA,GSM
+variable_rtp_audio_recv_pt: 0
+variable_rtp_use_codec_name: PCMU
+variable_rtp_use_codec_rate: 8000
+variable_rtp_use_codec_ptime: 20
+variable_rtp_use_codec_channels: 1
+variable_rtp_last_audio_codec_string: PCMU@8000h@20i@1c
+variable_read_codec: PCMU
+variable_original_read_codec: PCMU
+variable_read_rate: 8000
+variable_original_read_rate: 8000
+variable_write_codec: PCMU
+variable_write_rate: 8000
+variable_dtmf_type: rfc2833
+variable_local_media_ip: 192.168.1.202
+variable_local_media_port: 24976
+variable_advertised_media_ip: 192.168.1.202
+variable_rtp_use_timer_name: soft
+variable_rtp_use_pt: 0
+variable_rtp_use_ssrc: 1793474721
+variable_rtp_2833_send_payload: 101
+variable_rtp_2833_recv_payload: 101
+variable_remote_media_ip: 192.168.1.90
+variable_remote_media_port: 16062
+variable_rtp_local_sdp_str: v=0
+o=FreeSWITCH 1589852833 1589852834 IN IP4 192.168.1.202
+s=FreeSWITCH
+c=IN IP4 192.168.1.202
+t=0 0
+m=audio 24976 RTP/AVP 0 101
+a=rtpmap:0 PCMU/8000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-16
+a=ptime:20
+a=sendrecv
+
+variable_endpoint_disposition: ANSWER
+variable_current_application_data: 1 1 3 3000 # /home/voices/rings/pbx/ivr_first.wav /home/voices/rings/common/input_error.wav foo_dtmf_digits \d 3000
+variable_current_application: play_and_get_digits
+variable_sip_to_tag: eaXHSF31mrjQK
+variable_sip_from_tag: 767e4552
+variable_sip_cseq: 1
+variable_sip_call_id: YTc4ZjM0NDUxNjQ4MjFlZjY1MDI1YmQyYmFhM2M4ZTc.
+variable_sip_full_via: SIP/2.0/UDP 192.168.1.90:47440;branch=z9hG4bK-d8754z-d345987ecc264056-1---d8754z-;rport=47440
+variable_sip_from_display: zhuguan
+variable_sip_full_from: "zhuguan" <sip:80000@192.168.1.202:15288>;tag=767e4552
+variable_sip_to_display: 123456
+variable_sip_full_to: "123456" <sip:123456@192.168.1.202:15288>;tag=eaXHSF31mrjQK
+variable_sip_term_status: 200
+variable_proto_specific_hangup_cause: sip:200
+variable_sip_term_cause: 16
+variable_sip_user_agent: eyeBeam release 1100l stamp 46320
+variable_sip_hangup_disposition: recv_bye
+variable_playback_last_offset_pos: 7200
+variable_playback_seconds: 2
+variable_playback_ms: 2048
+variable_playback_samples: 16384
+Application: socket
+Application-Data: 127.0.0.1:8084 async full
+Application-Response: _none_
+Application-UUID: d0473594-99ac-11ea-bbe2-d18c212b558c
+
+
+16:43:39.247 Debug ▶ DEBUG Got message content (type: text/event-plain). Searching if we can handle it ...
+16:43:39.247 Error ▶ ERROR request uri is empty.
+16:43:39.247 Debug ▶ DEBUG Waiting for connection message to be received ...
+16:43:39.247 Debug ▶ DEBUG Got message content (type: text/disconnect-notice). Searching if we can handle it ...
+16:43:39.247 Debug ▶ DEBUG Message (header: Content-Type) -> (value: [text/disconnect-notice])
+16:43:39.247 Debug ▶ DEBUG Message (header: Controlled-Session-Uuid) -> (value: [d0470cfe-99ac-11ea-bbdf-d18c212b558c])
+16:43:39.247 Debug ▶ DEBUG Message (header: Content-Disposition) -> (value: [disconnect])
+16:43:39.247 Debug ▶ DEBUG NEW MESSAGE INCOMING......
+Content-Length: 2200
+Content-Type: text/event-plain
+16:43:39.247 Debug ▶ DEBUG Message (header: Content-Length) -> (value: [67])
+BODY:
+Event-Name: CHANNEL_CALLSTATE
+Core-UUID: 54804d26-7e02-11ea-a77c-d18c212b558c
+FreeSWITCH-Hostname: container
+FreeSWITCH-Switchname: container
+FreeSWITCH-IPv4: 192.168.1.202
+FreeSWITCH-IPv6: ::1
+Event-Date-Local: 2020-05-19 16:43:39
+Event-Date-GMT: Tue, 19 May 2020 08:43:39 GMT
+Event-Date-Timestamp: 1589877819239707
+Event-Calling-File: switch_channel.c
+Event-Calling-Function: switch_channel_perform_set_callstate
+Event-Calling-Line-Number: 285
+Event-Sequence: 644818
+Original-Channel-Call-State: ACTIVE
+Channel-Call-State-Number: 7
+Channel-State: CS_HANGUP
+Channel-Call-State: HANGUP
+Channel-State-Number: 10
+Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Call-Direction: inbound
+Presence-Call-Direction: inbound
+Channel-HIT-Dialplan: true
+Channel-Presence-ID: 80000@192.168.1.202
+Channel-Call-UUID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Answer-State: hangup
+Hangup-Cause: NORMAL_CLEARING
+Channel-Read-Codec-Name: PCMU
+Channel-Read-Codec-Rate: 8000
+Channel-Read-Codec-Bit-Rate: 64000
+Channel-Write-Codec-Name: PCMU
+Channel-Write-Codec-Rate: 8000
+Channel-Write-Codec-Bit-Rate: 64000
+Caller-Direction: inbound
+Caller-Logical-Direction: inbound
+Caller-Username: 80000
+Caller-Dialplan: XML
+Caller-Caller-ID-Name: zhuguan
+Caller-Caller-ID-Number: 80000
+Caller-Orig-Caller-ID-Name: zhuguan
+Caller-Orig-Caller-ID-Number: 80000
+Caller-Network-Addr: 192.168.1.90
+Caller-ANI: 80000
+Caller-Destination-Number: 123456
+Caller-Unique-ID: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+Caller-Source: mod_sofia
+Caller-Context: default
+Caller-Channel-Name: sofia/internal/80000@192.168.1.202:15288
+Caller-Profile-Index: 1
+Caller-Profile-Created-Time: 1589877809579702
+Caller-Channel-Created-Time: 1589877809579702
+Caller-Channel-Answered-Time: 1589877809619920
+Caller-Channel-Progress-Time: 0
+Caller-Channel-Progress-Media-Time: 1589877809619920
+Caller-Channel-Hangup-Time: 1589877819239707
+Caller-Channel-Transfer-Time: 0
+Caller-Channel-Resurrect-Time: 0
+Caller-Channel-Bridged-Time: 0
+Caller-Channel-Last-Hold: 0
+Caller-Channel-Hold-Accum: 0
+Caller-Screen-Bit: true
+Caller-Privacy-Hide-Name: false
+Caller-Privacy-Hide-Number: false
+
+
+16:43:39.247 Error ▶ ERROR request uri is empty.
+16:43:39.247 Debug ▶ DEBUG Waiting for connection message to be received ...
+16:43:39.247 Debug ▶ DEBUG NEW MESSAGE INCOMING......
+Content-Disposition: disconnect
+Content-Length: 67
+Content-Type: text/disconnect-notice
+Controlled-Session-Uuid: d0470cfe-99ac-11ea-bbdf-d18c212b558c
+BODY:
+Disconnected, goodbye.
+See you at ClueCon! http://www.cluecon.com/
+
+
